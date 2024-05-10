@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image-item, .new, .new-two{
+    display: flex;
+    justify-content: space-between;
+}
+.item1 img{
+    margin-right: 3rem;
+}
+.image-item .item1 img{
+    width: 250px;
+    height: 280px;
+}
+.two{
+    padding: 2rem 4rem;
+}
+
+@media screen and (max-width: 800px){
+    .image-item{
+        display: block;
+        
+    }
+    .image-item .item1 img{
+        width: 180px;
+        height: 200px;
+        border: 1px solid gold;
+    }
+    .two{
+        padding: 3rem;
+    }
+    .item1 img{
+        margin-right: 0;
+    }
+}

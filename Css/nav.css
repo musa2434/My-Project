@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color:rgb(245, 193, 124);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    height: 80px;
+
+}
+/* nav h3{
+
+} */
+nav .nav-links{
+    display: flex;
+    list-style-type: none;
+    /* padding: 1rem; */
+    /* padding: 2rem; */
+    
+}
+nav a{
+    color:white;
+    text-decoration: none;
+    margin-right: 2rem;
+    font-weight: bold;
+    position: relative;
+}
+a::after{
+    content: "";
+    background-color:black;
+    position: absolute;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+a:hover{
+    color: rgb(117, 81, 2);
+}
+a:hover::after{
+    width: 100%;
+}
+nav .btn{
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    /* /*line-height: 80px; */
+    margin-top: 25px;
+    margin-right: 40px;
+}
+nav .drop-down li{
+    margin: 1rem 0;
+}
+nav .drop-down{
+    background-color: rgb(245, 193, 124);
+    position: absolute;
+    width: 12%;
+    display: none;
+    z-index: 1200;
+    right: 10px;
+    top: 50px;
+    
+}
+nav ul li:hover .drop-down{
+    display: block;
+}
+
+
+
+/* Footer */
+footer{
+    background-color: black;
+    padding: 3rem 3rem;
+    color: white;
+}
+.housing-element{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 38px;
+    width: 28%;
+    text-align: center;
+    padding-top: 3rem;
+}
+.contact{
+    width: 20%;
+    font-size: 13px;
+}
+.privacy ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+.privacy ul li{
+    color: gold;
+    margin-left: -1rem;
+}
+.form{
+    width: 30%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form input{
+    margin: 1rem 0;
+    width: 70%;
+}
+form button{
+    border: none;
+    background-color: gold;
+    color: white;
+    padding: 5px;
+    margin: 1rem 0;
+    width: 70%;
+    border-radius: 5px;
+}
+.copyright{
+    text-align: center;
+    font-size: 10px;
+}
+.contact i{
+    color: #FFD43B;
+}
+
+/* Media Query */
+@media screen and (max-width: 800px){
+    label.first-logo h3{
+        font-size: 20px;
+        padding: 30px 10px;
+    }
+        .nav-links{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        top: 5rem;
+        background-color: rgb(245, 193, 124);
+        width: 30%;
+        /* text-align: center;  */
+        z-index: 1200;
+    }
+    .nav-links li{
+        margin: 10px;
+    }
+    .openMenu{
+        display: flex;
+    }
+    nav .btn{
+        display: flex;
+        z-index: 1200;
+    }
+    nav .drop-down li{
+        margin: 0.5rem 0;
+    }
+    nav .drop-down{
+        background: rgb(245, 193, 124);
+        position: absolute;
+        width: 100%;
+        display: none;
+        z-index: 1200;
+        right: 5rem;
+        top: 6rem;  
+    }
+    nav ul li:hover .drop-down{
+        display: block;
+    }
+
+    /* Footer */
+    footer{
+        padding: 1px 3rem;
+    }
+    .housing-element{
+        display: block;
+        width: 100%;
+    }
+    .logo{
+        font-size: 38px;
+        width: 100%;
+        text-align: center;
+        padding-top: 3rem;
+        margin-bottom: 2rem;
+    }
+    .contact{
+        width: 100%;
+        font-size: 13px;
+        margin-bottom: 3rem;
+    }
+    .privacy ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 13px;
+    }
+    .privacy ul li{
+        color: gold;
+        margin-left: -1rem;
+    }
+    .form{
+        width: 100%;
+        margin-top: 3rem;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    form input{
+        margin: 1rem 0;
+        width: 100%;
+    }
+    form button{
+        border: none;
+        background-color: gold;
+        color: white;
+        padding: 5px;
+        margin: 1rem 0;
+        width: 100%;
+        border-radius: 5px;
+    }
+    }
