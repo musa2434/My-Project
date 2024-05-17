@@ -234,4 +234,7 @@ form button{
             font-weight: bolder;
             padding: 15px 10px;
         }
+        .nav-links li{
+            margin-left: 2px;
+        }
     }
