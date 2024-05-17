@@ -223,3 +223,13 @@ form button{
         border-radius: 5px;
     }
     }
+
+
+    /* Media Query Mobile view */
+    @media screen and (max-width: 460px){
+        label.first-logo h3{
+            font-size: 18px;
+            font-weight: bolder;
+            padding: 15px 10px;
+        }
+    }
