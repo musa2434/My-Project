@@ -237,4 +237,8 @@ form button{
         .nav-links li{
             margin-left: -1rem;
         }
+        nav .btn{
+           
+            margin-left: 10px;
+        }
     }
