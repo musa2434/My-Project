@@ -235,6 +235,6 @@ form button{
             padding: 15px 10px;
         }
         .nav-links li{
-            margin-left: 2px;
+            margin-left: -1rem;
         }
     }
