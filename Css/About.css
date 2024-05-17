@@ -40,6 +40,12 @@
     }
 }
 
+  /* Media Query Mobile view */
+  @media screen and (max-width: 460px){
+    .featurette img{
+        float: right;
+    }
+}
 
 
 
