@@ -14,7 +14,7 @@ nav{
 /* nav h3{
 
 } */
-nav .nav-links{
+.nav-links{
     display: flex;
     list-style-type: none;
     /* padding: 1rem; */
@@ -134,7 +134,7 @@ form button{
         font-size: 20px;
         padding: 30px 10px;
     }
-        .nav-links{
+    .nav-links{
         display: none;
         flex-direction: column;
         position: absolute;
