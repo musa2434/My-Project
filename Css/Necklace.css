@@ -36,3 +36,15 @@
         margin-right: 0;
     }
 }
+
+
+ /* Media Query Mobile view */
+ @media screen and (max-width: 460px){
+    .image-item .item1 img{
+        width: 180px;
+        height: 200px;
+    }
+    .item1 img{
+        margin-right: 1rem;
+    }
+ }
