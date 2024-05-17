@@ -49,7 +49,7 @@ nav .btn{
     font-size: 1.5rem;
     cursor: pointer;
     /* /*line-height: 80px; */
-    margin-top: 25px;
+    margin-top: 20px;
     margin-right: 40px;
 }
 nav .drop-down li{
@@ -132,7 +132,7 @@ form button{
 @media screen and (max-width: 800px){
     label.first-logo h3{
         font-size: 20px;
-        padding: 30px 10px;
+        padding: 20px 10px;
     }
     .nav-links{
         display: none;
@@ -154,6 +154,7 @@ form button{
     nav .btn{
         display: flex;
         z-index: 1200;
+        margin-top: 5px;
     }
     nav .drop-down li{
         margin: 0.5rem 0;
