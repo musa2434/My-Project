@@ -40,6 +40,11 @@
 
  /* Media Query Mobile view */
  @media screen and (max-width: 460px){
-    
+    .item1{
+        margin-left: -2rem;
+    }
+    .item1 img{
+        margin-right: 3rem;
+    }
      
  }
