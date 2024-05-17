@@ -4,13 +4,17 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* html{
+    scroll-behavior: smooth;
+    transition: 5s;
+} */
 .featurette {
     display: flex;
     justify-content: space-between;
     margin: 20px;
     padding: 20px;
     background-color: #f7f7f7;
+   
 }
 
 .featurette h2 {
@@ -23,6 +27,15 @@
     color: #666;
     text-align: center;
 }
+/* img{
+    transition:all 2s ease-in-out;
+}
+img:hover{
+    opacity: 0;
+    transform: rotate3d(1, .5, .5, 180deg) scale(0.1);
+
+} */
+
 
 @media screen and (max-width: 800px){
     .featurette img{
@@ -42,9 +55,7 @@
 
   /* Media Query Mobile view */
   @media screen and (max-width: 460px){
-    .featurette img{
-        float: right;
-    }
+    
 }
 
 
